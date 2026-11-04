@@ -1,0 +1,30 @@
+# 编译产物
+project/build/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.htm
+*.dep
+*.lnp
+*.lst
+__pycache__/
+
+# Keil / IAR 用户界面状态文件
+*.uvguix.*
+*.bak
+
+# 日志与临时文件
+*.log
+log/
+tmp/
+
+# WorkBuddy 工作区数据
+.workbuddy/
+
+# 系统文件
+Thumbs.db
+.DS_Store
